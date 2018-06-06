@@ -14,10 +14,11 @@ namespace WebApplication1
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="configuration"></param>
+        public Startup(IConfiguration configuration) => Configuration = configuration;
 
         public IConfiguration Configuration { get; }
 
