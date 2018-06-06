@@ -12,6 +12,9 @@ using Microsoft.Extensions.Options;
 
 namespace WebApplication1
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class Startup
     {
         /// <summary>
